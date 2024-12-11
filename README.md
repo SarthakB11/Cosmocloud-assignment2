@@ -176,4 +176,3 @@ db.movies.createIndex({ "cast": 1 })
 - **Efficient Comment Retrieval**: Use a sub-pipeline within the `$lookup` stage to sort and limit comments early.
 - **Indexing**: Ensure that relevant fields are indexed to improve the performance of the `$match` and `$lookup` stages.
 
-By following these guidelines, you can optimize the performance of the aggregation pipelines and ensure efficient query execution.
